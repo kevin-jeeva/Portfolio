@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Node js",
+    "description": "Created Node js server using express DB and deployed in AWS. I used the Node js server to fetch requests, respond to API calls, and create routes in the Node js server.",
+    "link": "https://github.com/kevin-jeeva/node-staff-api",
+    "img": "nodejs.png",
+    "animation": "fly right",
+    "transition": 700
+  },
+  {
+    "title": "AWS",
+    "description": "I am comfortable using Amazon Web Services. I have used Lambda, API Gateway, Amazon Elastic Beanstalk in AWS. Deployed website AWS EC2 and designed Database in AWS RDS.",
+    "img": "aws.png",
+    "animation": "fly left",
+    "transition": 800
+  },
+  {
+    "title": "React",
+    "description": "I am proficient in using React js and React Native. I have mainly created the NBCC StaffWellness React Native application. Versatile in calling API and used different third party libraries like Axios, Apisauce, Formik, Yup and React Navigation",
+    "link": "https://todo-react-jeeva.netlify.app/",
+    "img": "react.png",
+    "animation": "fly up",
+    "transition": 5000
+  },
+  {
+    "title": "Git",
+    "description": "Proficient in using Git and its various function like creating branches, Pull requests, Forking and Merging Branches. I have deployed several projects in GitHub and GitLab. Architect Pipeline in GitLab connecting repo and hosting server.",
+    "link": "https://gitlab.com/kevinjeev/git-shared-repo",
+    "img": "git.png",
+    "animation": "fly up",
+    "transition": 5000
+  }
+]

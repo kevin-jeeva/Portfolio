@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Twitter Clone",
+    "date": "October 2020",
+    "description": "This is a simple Twitter clone website written in PHP, JavaScript with a MySQL database.",
+    "link": "https://github.com/kevin-jeeva/Twitter-Clone",
+    "img": "php.png",
+    "transition": 700
+  },
+  {
+    "title": "Quizzlet Prototype",
+    "date": "December 2020",
+    "description": "This is a simple quiz website where user can add and take quizzes. This website backend uses Java EE such as JSP, JSF and MySQL database.",
+    "link": "https://github.com/kevin-jeeva/Buzzlet",
+    "img": "buzzlet.png",
+    "transition": 800
+  },
+  {
+    "title": "NBCC Staff Wellness App",
+    "date": "April 2021",
+    "description": "This is a simple hybrid mobile application created with Expo, React Native and Nodejs server. This hybrid app will enable NBCC  staff to maintain their wellness.",
+    "link": "https://expo.io/@kevin-jeeva/nbcc-staff-wellness?release-channel=prod-v1",
+    "img": "react_native.png",
+    "transition": 900
+  }
+]
