@@ -36,18 +36,18 @@ const About = () => {
               </Header>
             </Divider>
             <p style={styles.aboutDescription}>
-              About I am Kevin Jeevanandham. Current student at NBCC, graduating
-              June 25, 2021. I am interested and enthusiastic to learn new
-              skills and technology in the computer field. Prominently creative
-              and learn new thing quickly when comes to the computer. Some of my
-              favorite programming languages are Java, JavaScript, SQL, and
-              Reactjs. I have developed some projects in PHP, Java, and React
-              Native.
+              I am Kevin Jeevanandham. Graduate Programmer Analyst from NBCC
+              with Honours. I am interested and enthusiastic to learn new skills
+              and technology in the computer field. Prominently creative and
+              learn new thing quickly when comes to the computer. Some of my
+              favorite programming languages are React, Java, JavaScript, SQL,
+              PHP, C# and React Native. I have developed some projects in PHP,
+              Java, React and React Native.
             </p>
             <p style={styles.aboutDescription}>
               I am creative and problem-solving in complex sets. I am a team
               player and worked with various groups of programmers on different
-              projects. I am adaptive to the new environment and an
+              projects in NBCC. I am adaptive to the new environment and an
               autodidactic.
             </p>
 
