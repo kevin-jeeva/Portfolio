@@ -14,12 +14,25 @@ const SkillsLearned = () => {
 
   const img = require("../images/skills_learned_from/nbcc.png");
 
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    if (position >= 3080 && visible !== true) {
+      setVisible(true);
+    }
+  };
+
   useEffect(() => {
     const learnedSkill = require("../data/skillsLearned.json");
 
     if (learnedSkill) {
       setData([...learnedSkill]);
     }
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   const HandleSkillsLearned = () => {
@@ -75,7 +88,7 @@ const SkillsLearned = () => {
   };
 
   return (
-    <div onMouseEnter={() => setVisible(true)}>
+    <div>
       <Container>
         <Divider horizontal>
           <Header as="h1" textAlign="center">

@@ -24,6 +24,22 @@ const SpecializedSkills = () => {
     }
   }, []);
 
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+
+    if (position >= 1850 && visible !== true) {
+      setVisible(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+
   const HandleSkills = () => {
     if (data) {
       const loopLimit = Math.ceil(data.length / 2);
@@ -77,7 +93,7 @@ const SpecializedSkills = () => {
   };
 
   return (
-    <div onMouseEnter={() => setVisible(true)}>
+    <div>
       <Container>
         <Divider horizontal>
           <Header as="h1" textAlign="center">

@@ -23,6 +23,21 @@ const Projects = () => {
     }
   }, []);
 
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    if (position >= 800 && visible !== true) {
+      setVisible(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const HandleProjects = () => {
     if (data) {
       return data.map((value) => {
@@ -66,7 +81,7 @@ const Projects = () => {
   };
 
   return (
-    <div onMouseEnter={() => setVisible(true)}>
+    <div onWheel={() => console.log("here")}>
       <Container style={styles.container}>
         <Divider horizontal>
           <Header as="h1" textAlign="center">
