@@ -27,7 +27,7 @@ const SpecializedSkills = () => {
   const handleScroll = () => {
     const position = window.pageYOffset;
 
-    if (position >= 1850 && visible !== true) {
+    if (position >= 1650 && visible !== true) {
       setVisible(true);
     }
   };

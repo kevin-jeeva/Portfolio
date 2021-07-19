@@ -25,7 +25,7 @@ const Projects = () => {
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    if (position >= 800 && visible !== true) {
+    if (position >= 550 && visible !== true) {
       setVisible(true);
     }
   };

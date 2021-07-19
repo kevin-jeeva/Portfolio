@@ -16,7 +16,7 @@ const SkillsLearned = () => {
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    if (position >= 3080 && visible !== true) {
+    if (position >= 3000 && visible !== true) {
       setVisible(true);
     }
   };
