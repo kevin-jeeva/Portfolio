@@ -37,17 +37,17 @@ const About = () => {
             </Divider>
             <p style={styles.aboutDescription}>
               I am Kevin Jeevanandham. Graduate Programmer Analyst from NBCC
-              with Honours. I am interested and enthusiastic to learn new skills
-              and technology in the computer field. Prominently creative and
-              learn new thing quickly when comes to the computer. Some of my
-              favorite programming languages are React, Java, JavaScript, SQL,
-              PHP, C# and React Native. I have developed some projects in PHP,
-              Java, React and React Native.
+              with Honours. I am a passionate full-stack
+              developer/Programmer—experience in back-end and front-end
+              technologies. I am an Independent and fast learner with a focus on
+              attention to detail. I am keen on learning new skills in terms of
+              technical and non-technical aspects. I have hands-on experience in
+              React, Java, C#.Net, JavaScript, SQL, PHP, Nodejs, and AWS.
             </p>
             <p style={styles.aboutDescription}>
               I am creative and problem-solving in complex sets. I am a team
               player and worked with various groups of programmers on different
-              projects in NBCC. I am adaptive to the new environment and an
+              projects at NBCC. I am adaptive to the new environment and an
               autodidactic.
             </p>
 

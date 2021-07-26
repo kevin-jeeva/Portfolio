@@ -3,21 +3,21 @@
     "title": "New Brunswick Community College",
     "img": "nbcc.png",
     "subTitle": " Information Technology: Programmer-Analyst",
-    "description": "I have studied two years diploma course in NBCC.I have learned and efficient in most of the programming languages such as Java, PHP, C#, SQL, JavaScript, Linux, Database Programming, Networking, Interpersonal Communication, Business Strategies, etc.",
+    "description": "I have completed two years IT: Programmer Analyst diploma at NBCC Fredericton campus.I have gained hands-on learning in some of the programming languages such as Java, PHP, C#, SQL, JavaScript, Database Programming. Worked in team projects in developing NBCC Staff Wellness Application. I have developed other Notable skills such as Networking, Interpersonal communication, Object-Oriented design",
     "transition": 3000
   },
   {
     "title": "Amazon Web Services",
     "img": "aws.png",
     "subTitle": "Cloud computing",
-    "description": "I have acquired cloud computing skills in AWS and gained course credits. Comfortable in deploying EC2, RDS, Lambda, API gateway, etc.",
+    "description": "I have acquired cloud computing skills in AWS and gained course credits. Comfortable in deploying EC2, RDS, Lambda, API gateway, S3 and AWS Congito ",
     "transition": 3000
   },
   {
     "title": "Online Course",
     "img": "mosh.png",
     "subTitle": "React Native",
-    "description": "Mosh Programming Tutorials are certified courses. I have learned both the fundamentals and the Advanced React Native course from Mosh Programming Course.",
+    "description": "In Mosh Programming Tutorials, I have learned both the fundamentals and the Advanced React Native Programming",
     "transition": 3000
   }
 ]

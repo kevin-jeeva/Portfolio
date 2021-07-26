@@ -1,7 +1,7 @@
 [
   {
     "title": "Node js",
-    "description": "Created Node js server using express DB and deployed in AWS. I used the Node js server to fetch requests, respond to API calls, and create routes in the Node js server.",
+    "description": "Created Node js server using express DB and deployed in AWS. I have used the Node js server to fetch requests, respond to API calls, and create routes in the Node js server.",
     "link": "https://github.com/kevin-jeeva/node-staff-api",
     "img": "nodejs.png",
     "animation": "fly right",
@@ -9,7 +9,7 @@
   },
   {
     "title": "AWS",
-    "description": "I am comfortable using Amazon Web Services. I have used Lambda, API Gateway, Amazon Elastic Beanstalk in AWS. Deployed website AWS EC2 and designed Database in AWS RDS.",
+    "description": "I am comfortable using Amazon Web Services. I have used Lambda, API Gateway, Amazon Elastic Beanstalk in AWS. Deployed website in AWS EC2 and designed Database in AWS RDS.",
     "img": "aws.png",
     "animation": "fly left",
     "transition": 800

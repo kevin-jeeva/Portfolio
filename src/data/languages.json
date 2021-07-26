@@ -2,33 +2,33 @@
   {
     "title": "Java",
     "image": "java.png",
-    "description": "I am a Intermediate Java programmer. I learnt Java from basic fundamentals like JavaFX, threading to Advance JavaEE like JavaServer Pages and Jakarta Server Page. In Addition to that I learned to connected with Databases in Java",
+    "description": "I am an Intermediate Java programmer. I learned from fundamental Java to Advance Java. I have developed a Quizzlet web application using Java (JavaEE, JDBC, JSP, and JSF). ",
     "link": "https://github.com/kevin-jeeva/Buzzlet"
   },
   {
     "title": "C#",
     "image": "csharp.png",
-    "description": "In C#, I am proficient in following Object-Oriented standards, including creating classes, objects, delegates, threading, Interfaces, and unit testing. Furthermore, I am comfortable querying and modifying databases in C#. I have created a robust Calculator Application in C#.",
+    "description": "In C#, I am proficient in following Object-Oriented standards, creating classes, objects, delegates, threading, Interfaces, and unit testing. Furthermore, I am comfortable querying and modifying databases in C#. I have created a robust Calculator Application in C#.",
     "link": "https://github.com/kevin-jeeva/Calculator"
   },
   {
     "title": "JavaScript",
     "image": "javascript.png",
-    "description": "In JavaScript, I am proficient in dealing with both vanilla JavaScript and JS6 versions. I Learned different frameworks like JQuery, Reactjs, and React Native. "
+    "description": "In JavaScript, I am proficient in developing web application using vanilla JavaScript (ES6) and JavaScript Frameworks. Efficient in developing web applications using React."
   },
   {
     "title": "SQL",
     "image": "sql.png",
-    "description": "Able to work with different SQL languages like MySQL, Oracle, and SQL Server. Query, modify database through Java, PHP, Nodejs and C#"
+    "description": "I am a Intermediate SQL developer. Hands-on experience in using MySQL, AWS RDS, Oracle, MongoDb and SQL Server. Database programming using Java, PHP, Nodejs and C#"
   },
   {
     "title": "PHP",
     "image": "php.png",
-    "description": "It is very fun to programming in PHP. I covered PHP from top to bottom including connecting database, Object Oriented, data types, Arrays and curl",
+    "description": "I am proficient in PHP from basic to Advance topics. Developed PHP web application follows Object-Oriented Programming. ",
     "link": "https://github.com/kevin-jeeva/Twitter-Clone"
   },
   {
-    "title": "Website",
+    "title": "Building Websites",
     "image": "html.png",
     "description": "Created and deployed website using HTML, CSS and Bootstrap 4. Website are created with Responsive Design."
   }
