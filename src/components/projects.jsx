@@ -88,7 +88,14 @@ const Projects = () => {
             Projects
           </Header>
         </Divider>
-        <Grid columns={3} style={styles.grid}>
+        <Grid
+          columns={3}
+          style={styles.grid}
+          stackable
+          padded
+          stretched
+          centered
+        >
           <Grid.Row>{data && HandleProjects()}</Grid.Row>
         </Grid>
       </Container>

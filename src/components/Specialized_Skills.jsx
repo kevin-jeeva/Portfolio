@@ -97,10 +97,12 @@ const SpecializedSkills = () => {
       <Container>
         <Divider horizontal>
           <Header as="h1" textAlign="center">
-            Other SpecializedSkills Languages
+            Additional Skills
           </Header>
         </Divider>
-        <Grid columns={2}>{data && HandleSkills()}</Grid>
+        <Grid columns={2} stackable padded>
+          {data && HandleSkills()}
+        </Grid>
       </Container>
     </div>
   );

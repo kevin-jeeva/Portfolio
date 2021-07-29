@@ -36,9 +36,9 @@ const Language = () => {
         return (
           <Carousel.Item>
             <Container style={styles.carouselContainer}>
-              <Grid columns={2}>
+              <Grid columns={2} stackable padded textAlign="center">
                 <Grid.Row>
-                  <Grid.Column width={7}>
+                  <Grid.Column width={7} only="computer">
                     <Container style={styles.imageContainer}>
                       <Image src={img.default} size="medium" centered />
                     </Container>
@@ -111,7 +111,7 @@ const styles = {
   description: {
     textAlign: "justify",
     fontFamily: "Verdana",
-    fontSize: "1.3rem",
+    fontSize: "100%",
     marginLeft: "10%",
     marginTop: "10%",
     margin: "auto",

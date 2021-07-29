@@ -92,10 +92,12 @@ const SkillsLearned = () => {
       <Container>
         <Divider horizontal>
           <Header as="h1" textAlign="center">
-            Skills Learned From
+            Resources
           </Header>
         </Divider>
-        <Grid columns={3}>{data && HandleSkillsLearned()}</Grid>
+        <Grid columns={3} stackable>
+          {data && HandleSkillsLearned()}
+        </Grid>
       </Container>
     </div>
   );
